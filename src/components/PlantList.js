@@ -14,7 +14,7 @@ constructor(props) {
   componentDidMount() {
     axios.get('http://localhost:3333/plants')
       .then(res => {
-        
+        this.setState({})
       });
   }
 
